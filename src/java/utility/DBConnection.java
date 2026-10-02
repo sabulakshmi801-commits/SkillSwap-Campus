@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-    private static final String URL  = "jdbc:mysql://localhost:3306/skillswap_campus?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
+    private static final String URL  = "jdbc:mysql://mysql.railway.internal:3306/railway?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USER = "root";
-    private static final String PASS = "1234";   // Change to your MySQL password
+    private static final String PASS = "FhMAnvGKCbgzRnZJHfcylXgpITWcdXxt";
 
     public static Connection getConnection() throws SQLException {
         try {
