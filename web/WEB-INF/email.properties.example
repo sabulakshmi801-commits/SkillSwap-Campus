@@ -1,0 +1,7 @@
+# Copy to email.properties and fill in your SMTP details (e.g. Gmail App Password).
+mail.smtp.host=smtp.gmail.com
+mail.smtp.port=587
+mail.smtp.starttls.enable=true
+mail.smtp.user=your-email@gmail.com
+mail.smtp.password=your-app-password
+mail.from=your-email@gmail.com

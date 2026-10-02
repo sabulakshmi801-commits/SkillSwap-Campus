@@ -1,0 +1,26 @@
+SkillSwap Campus (Folet) – Latest Updates
+=========================================
+
+1. Login page – blank fields
+   - No pre-filled email/password (autocomplete off + fields cleared on load)
+   - Browser saved passwords may still appear until you clear them once in the browser
+
+2. Password show/hide
+   - Eye button on every password field (login, register, forgot, change password)
+
+3. Session notifications – accept/reject with reason
+   - Mentor enters response message; learner gets notification including that reason
+   - Reject requires a reason; accept can include an optional message
+
+4. Resource downloads
+   - New /download?id= servlet streams files for all logged-in users
+   - Works for uploaded files (sample DB entries need re-upload if file missing)
+
+5. Upload resource
+   - Images and video files allowed (jpg, png, gif, webp, mp4, mov, etc.)
+   - Description is not required
+
+6. Optional text fields (not required)
+   - Resource description, session notes, feedback comments, skill description, profile bio
+
+Deploy: Clean and Build in NetBeans.

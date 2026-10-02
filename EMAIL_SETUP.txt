@@ -1,0 +1,19 @@
+Send verification codes to user email
+======================================
+
+1. JavaMail JARs are already in: web/WEB-INF/lib/
+   - javax.mail-1.6.2.jar
+   - activation-1.1.1.jar
+
+2. Edit web/WEB-INF/email.properties:
+   - mail.smtp.user     = your Gmail address
+   - mail.smtp.password = Gmail App Password (16 chars, NOT your login password)
+   - mail.from          = same Gmail address
+
+3. Gmail: enable 2-Step Verification, then create an App Password for "Mail".
+
+4. NetBeans: Clean and Build, then Run.
+
+5. Test: Forgot Password → enter registered email → check inbox (and Spam).
+
+If send fails, read Tomcat Output for [EmailUtil] error lines.
